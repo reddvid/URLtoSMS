@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>URLtoSMS Sample Page</title>
+</head>
+
+<body style="background: #202020;">
+    <style>
+        html, body {
+            color: #dedede;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            font-family: 'Segoe UI';
+            margin: 4px;
+            padding: 0 50px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+            .button.smaller {
+                background-color: #4CAF50; /* Green */
+                border: none;
+                color: white;
+                font-family: 'Segoe UI';
+                padding: 0 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 12px;
+            }
+    </style>
+    <div style="margin: 30vh auto;">
+        <h1>URLtoSMS</h1>
+        <p>Sample Webpage of a button or link that contains an sms:// protocol</p>
+        <br>
+        <br>
+        <a class="button" href="sms:1234567890?body=Thank you for using my app! #UWP #Windows10Mobile"><h2>PRESS ME</h2></a><br>
+        <br>
+        <a class="button smaller" href="ms-windows-store:publisher?name=Red David"><h2>more apps</h2></a><br>
+
+        <!--<a class="button" href="sms:&#48;&#57;&#55;&#55;-&#51;&#54;&#54;-&#51;&#49;&#55;&#50;?body=Re:Arduino Yun https://www.olx.ph/120869990">TEST 2</a><br>
+    <a class="button" href="sms:?body=Re:Arduino Yun https://www.olx.ph/120869990">NO NUMBER</a><br>
+    <a class="button" href="sms:&#48;&#57;&#55;&#55;-&#51;&#54;&#54;-&#51;&#49;&#55;&#50;">NUMBER ONLY</a>-->
+    </div>
+</body>
+
+</html>
