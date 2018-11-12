@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "URLtoSMS.UWP.Mobile", "URLToSMS.UWP.Mobile\URLtoSMS.UWP.Mobile.csproj", "{5D42656C-D23C-4D30-AD39-85E1CE63CA4A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E38016C0-59D8-4382-8FFA-CB162D1A13FB}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
